@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cheat Sheet</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!--  header  -->
+
+    <header>
+        <nav class="nav">
+            <div class="nav-container">
+                <a class="nav-item" href="#html">
+                    <li>HTML</li>
+                </a>
+                <a class="nav-item" href="#css">
+                    <li>CSS</li>
+                </a>
+                <a class="nav-item" href="#js">
+                    <li>JavaScript</li>
+                </a>
+                <a class="nav-item" href="#git">
+                    <li>GIT</li>
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <!--  main  -->
+
+    <main>
+        <section class="welcome">
+            <div class="welcome-container"> 
+                <h1 class="welcome-title">&lt Cheat Sheet &gt</h1>
+                <h2 class="welcome-subtitle">Inspired by CodeCademy</h2>
+            </div> 
+        </section>
+
+        <!----------  HTML  ---------->
+        <!----------  HTML  ---------->
+
+        <section class="section" id="html">
+            <div class="container">
+
+                <h2 class="title">Welcome to the &ltHTML&gt</h2>
+
+                <p class="html-description">The <span class="first-letter">H</span>yper<span class="first-letter">T</span>ext <span class="first-letter">M</span>arkup <span class="first-letter">L</span>anguage or HTML is the standard markup language for documents designed to be displayed in a web browser. It defines the meaning and structure of web content. It is often assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.</p>
+
+                <p class="html-description">Web browsers receive HTML documents from a web server or from local storage and render the documents into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for its appearance.</p>
+
+                <p class="html-description">HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects such as interactive forms may be embedded into the rendered page. HTML provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes, and other items. HTML elements are delineated by tags, written using angle brackets. Tags such as <span class="tag">&ltimg&gt</span> and <span class="tag">&ltinput&gt</span> directly introduce content into the page. Other tags such as <span class="tag">&ltp&gt</span> and <span class="tag">&ltp&gt</span> surround and provide information about document text and may include sub-element tags. Browsers do not display the HTML tags but use them to interpret the content of the page.</p>
+
+                <p class="html-description">HTML can embed programs written in a scripting language such as JavaScript, which affects the behavior and content of web pages. The inclusion of CSS defines the look and layout of content. The World Wide Web Consortium (W3C), former maintainer of the HTML and current maintainer of the CSS standards, has encouraged the use of CSS over explicit presentational HTML since 1997. A form of HTML, known as HTML5, is used to display video and audio, primarily using the &ltcanvas&gt element, together with JavaScript.</p>
+
+                <h3 class="subtitle">19 Commonly Used HTML Tags to Know for Beginners</h3>
+
+                <img class="html-img" src="images/html5.png" alt="html image">
+
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <td>Tag</td>
+                            <td><b>Description</b></td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="hover">
+                            <td>&lt!DOCTYPE&gt</td>
+                            <td>The DOCTYPE is not technically a tag but a declaration that tells the browser what kind of file will be loaded. This tag tells the browser the type of HTML that will be loaded. </td>
+                        </tr>
+                        <tr>
+                            <td>&lthtml&gt &lt/html&gt</td>
+                            <td>The &lthtml&gt tag comes after the DOCTYPE tag. This tag defines the document as a web page; every other element will be nested inside. The HTML tag specifies the beginning and end of an HTML document. </td>
+                        </tr>
+                        <tr>
+                            <td>&lthead&gt &lt/head&gt</td>
+                            <td>The head section of an HTML document is represented by a &lthead&gt tag. This tag is enclosed within the &lthtml&gt tag and gives general information about the webpage. 
+                            <br>    
+                            The &lthead&gt tag contains other tags that give specifics of the web page, such as the page’s title and author. The contents of this tag are not displayed on the web page
+                                </td>
+                        </tr>
+                        <tr>
+                            <td>&lttitle&gt &lt/title&gt</td>
+                            <td>The &lttitle&gt tag declares the title of the web page. This tag is enclosed within the &lthead&gt tag. The &lttitle&gt tag will appear on the title bar or the tab in the browser window but not on the actual web page. </td>
+                        </tr>
+                        <tr>
+                            <td>&ltbody&gt &lt/body&gt</td>
+                            <td>The &ltbody&gt tag displays all the visible content on a web page. Images, links, plain text, videos, and more can be found inside the &ltbody&gt and &lt/body&gt tags. 
+                            <br>
+                            Some of the other tags you will find inside the body include &ltp&gt tag for paragraph, &ltimg&gt tag for images, &ltstrong&gt tag for bold text, and &ltol&gt tag for an ordered list, to mention a few. </td>
+                        </tr>
+                        <tr>
+                            <td>&lth1&gt to &lth6&gt tags</td>
+                            <td>There can be up to 6 heading tags in an HTML document. Each of the tags is represented by a number starting from 1 to 6 as &lth1&gt, &lth2&gt, &lth3&gt, &lth4&gt, &lth5&gt, and &lth6&gt. 
+                            <br>
+                            H1 is the largest heading tag, while H6 is the smallest. 
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&ltp&gt &lt/p&gt</td>
+                            <td>The &ltp&gt &lt/p&gt or simply the paragraph tag is used when you want to structure content into a paragraph. Hitting the ‘enter’ button in an HTML document in your code editor will not create a new paragraph. 
+                            <br>
+                            If you want more than one paragraph, you have to use several &ltp&gt &lt/p&gt tags on your document. The paragraph tags should be enclosed within the <body > tag.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&ltb&gt &lt/b&gt</td>
+                            <td>The &ltb&gt &lt/b&gt or simply bold tag will format any content between the opening &ltb&gt and the closing &lt/b&gt as bold.
+                            <br>    
+                            The bold tag can be between a heading such as H1 or even within a paragraph tag.</td>
+                        </tr>
+                        <tr>
+                            <td>&lti&gt &lt/i&gt</td>
+                            <td>The italic tag, denoted by &lti&gt, italicizes the text inside the tags.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&ltu&gt &lt/u&gt</td>
+                            <td>The underline tag, or &ltu&gt, is used when you want to underline a certain piece of text in an HTML document. 
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&ltcenter&gt &lt/center&gt</td>
+                            <td>The Center tag, &ltcenter&gt, is used to center content on an HTML document. 
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&ltspan&gt &lt/span&gt</td>
+                            <td>Span tag, &ltspan&gt, is a generic inline container that does not come with a default style. You can use the span tag to group texts that you want to style. 
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&ltdiv&gt &lt/div&gt</td>
+                            <td>A division tag, abbreviated as div, is a tag that allows you to group different tags in an HTML document. 
+                            <br>
+                            A div tag can be given a ‘class’ to add external styling using CSS. 
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&ltem&gt &lt/em&gt</td>
+                            <td>The emphasis, or &ltem&gt tag, is used to emphasize certain words in an HTML document. 
+                            <br>
+                            Content in between &ltem&gt tags will appear slanted or italicized. 
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&ltsup&gt &lt/sup&gt</td>
+                            <td>The &ltsup&gt or the superscript tag allows the enclosed text to be above the rest. A perfect example is when you want to square a number X and represent it mathematically to give you X2
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&ltsub&gt &lt/sub&gt</td>
+                            <td>The subscript or &ltsub&gt tag is the opposite of the superscript tag. The content enclosed in the &ltsub&gt tag will appear below the normal line of text. A perfect example is when writing the chemical formula of water as H<sub>2</sub>0. 
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&ltbr&gt</td>
+                            <td>&ltbr&gt is a self-closing tag that stands for a break. All the content after &ltbr&gt will start on a new line. 
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&ltol&gt &lt/ol&gt and &ltli&gt &lt/li&gt</td>
+                            <td>The ordered list tag or the &ltol&gt must be used with another tag such as the &ltli&gt. 
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&ltimg src=" "/&gt</td>
+                            <td>You may want to add an image for visual appeal or even a logo. The self-closing image tag, &ltimg src=””/&gt, comes in handy in such a case. 
+                            </td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="2">
+                                There exist over 100 HTML tags, but the above are the ones you should know as a beginner. HTML is supported in most code editors, and you are thus assured that you will never go wrong when you start learning. 
+                            </td>
+                        </tr>
+                    </tfoot>
+                </table>
+
+            </div>
+
+        </section>
+
+        <!----------  CSS  ---------->
+        <!----------  CSS  ---------->
+
+        <section class="section" id="css">
+            <div class="container">
+                <h2 class="title">Welcome to the { CSS }</h2>
+                <img src="images/css.jpg" alt="css image">
+                <h3 class="subtitle">9 Important CSS Properties You Must Know
+                </h3>
+                <div class="css-wrapper">
+                    <div class="css-left">
+                        <div class="css-item">
+
+                            <h2>1: Display</h2>
+                            
+                            <p><b>Display</b> takes on many different values, but only 4 are most commonly used.
+                            block: Many HTML elements are set to this mode of display by browsers’ stylesheets. They include &ltdiv&gt, &ltul&gt and text blocks like &ltp&gt. Block level elements by default take up as much space as they can, and they cannot be placed on the same horizontal line with any other display modes, include other block elements. (Exception: unless they are floated)</p>
+
+                            <p><b>inline:</b> The inline mode wraps many HTML elements tighty around them and is the defaults for all elements that are not specified with any other display values. Elements can be placed side by side on the same line as inline elements. Think about the &ltstrong&gt tag that bolds elements, the &ltem&gt tag that creates italics and &lta&gt tags that allow you to link to other web pages. These are all examples of inline elements. You will not be able to change an inline element’s width and height.</p>
+
+                            <p><b>inline-block:</b> This is one display value that combines the properties of both block elements and inline elements. You get the ability to set a height and width, and the element can appear on the same horizontal line as other elements.</p>
+                                
+                            <p><b>none:</b> Display none hides the element from the website and it will not be shown visually. This is very useful for CSS Dropdown menus where additional options appear when you hover on navigation menus. The rationale is that elements are set to a display value of none initially, and the display value is changed to block on hover.</p>
+
+                            <img src="images/display-values.jpg" alt="css image">
+
+                        </div>
+                    </div>
+
+                    <div class="css-item">
+                            
+                        <h2>2: Width and Height</h2>
+                        
+                        <p>Width and height properties are used closely with display:block and display:inline to set the width and height of HTML elements while creating a website. Common units units for Width and Height are:</p>
+                        <div class="ul-wrapper">
+                            <ul>
+                                <li><b>px</b> - Pixels.</li>
+                                <li><b>em</b> - A unit of measurement, where 1 em = current font size.</li>
+                                <li><b>rem</b> - Root em. Same measurement as em, but makes life much easier without the inheritance problem</li>
+                                <li><b>%</b> - Percentages.</li>
+                                <li><b>auto</b> - highly useful unit, will explain below.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="css-item">
+                            
+                        <h2>3: Margin and Padding</h2>
+                        
+                        <p>Margins are paddings are things that will definitely appear. Knowing how these things work will be extremely beneficial when writing CSS.</p>
+
+                        <p>Margins and Paddings dictate the spaces between elements on your website. They are very similar and have the same units as Width and Height mentioned above.</p>
+
+                        <p>The only difference between margins and paddings is the area the exert control over. Margins affect the area outside of borders whereas paddings affect areas inside the border. It is useful to refer to the box model below:</p>
+
+                        <img src="images/box-model.jpg" alt="box-model">
+
+                    </div>
+
+                    <div class="css-item">
+                            
+                        <h2>4: Border</h2>
+                        
+                        <p>Borders are… borders. I’m pretty sure you don’t need an explanation of what borders are.</p>
+                        <p>Borders have 3 different properties that you have take care of:</p>
+                        <div class="ul-wrapper">
+                            <ul>
+                                <li><b>border-width</b> – width of the border. Same units as width and height</li>
+                                <li><b>border-style</b> – style of the border. Usual values are solid and dashed. For a complete list, take a look at <a href="https://www.w3schools.com/" target="_blank">W3 Schools Website</a></li>
+                                <li><b>border-color</b> – color of the border. Hex, and rgb values can be used.</li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+
+                    <div class="css-item">
+                            
+                        <h2>5: Floats</h2>
+                        
+                        <p>Floats are one of the core elements in today’s website. If you see two columns of text side by side, a sidebar / content configuration like what you see on my blog if your browser window is above 800px, you have noticed floats in action. Another commonly used area for floats are navigation items.</p>
+
+                        <p>In the nutshell, what float simply does it to position the edge of the targeted HTML content at the edge of one side of the parent container. Subsequent floats will then be placed at the edge of your first floated content. (depending on whether you float it left or right)</p>
+
+                        <p>Floats have 3 basic properties that you might use often:</p>
+
+                        <div class="ul-wrapper">
+                            <ul>
+                                <li><b>left</b></li>
+                                <li><b>right</b></li>
+                                <li><b>none</b> - removes the float</li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+
+                    <div class="css-item">
+                            
+                        <h2>6: Clearing Floats</h2>
+                        
+                        <p>Even though floats are immensely useful, they are sometimes a headache if they are not cleared properly. In general, 2 kinds of problems may occur:</p>
+
+                        <img src="images/float-problems.jpg" alt="float problems">
+
+                        <p>The are 3 main methods for clearing floats:</p>
+
+                        <div class="ul-wrapper">
+                            <ul>
+                                <li><b>clear:</b> The Clear property takes in 3 values. left, right or both. As you might have suspected, clear:left; simply clears any floats on the left side, clear:right; clears floats on the right side while clear:both; ensures that all floats elements are cleared</li>
+                                <li><b>overflow:hidden:</b> This method is great for ensuring the parent element does not collapse like in problem 2. overflow:hidden; is set to the parent element to combat the problem.</li>
+                                <li><b>clearfix:</b> No doubt you will have heard of or seen clearfix in tutorials. It is also set to the parent element to ensure float issues do not arise. The rationale behind the clearfix hack is to insert some content (a period) after the parent element to force the parent element to self clear since there is content after the floats.</li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+
+                    <div class="css-item">
+                            
+                        <h2>7: Color</h2>
+                        
+                        <p>Color here refers to text color. It takes on a #hex value or a rgb value as with border colors.</p>
+                        
+                    </div>
+
+                    <div class="css-item">
+                            
+                        <h2>8: Background</h2>
+                        
+                        <p>Here are the explanations for the background properties in order from left to right:</p>
+
+                        <div class="ul-wrapper">
+                            <ul>
+                                <li><b>background-color:</b> color of the background. Takes #hex value or an rgb value</li>
+                                <li><b>background-image:</b> url(URI). Takes on the path to your image. Use the example above if the image is in the same folder.
+
+                                To go down one folder, simple type the file name before the image.png. Example: css/image.png.
+                                    
+                                To go up one folder, type the file name with ”../“. Example: ../css/image.png</li>
+                                <li><b>background-repeat:</b> whether you would like the background to repeat if the width exceeds the background size. Other values are repeat, repeat-x and repeat-y.</li>
+                                <li><b>background-position:</b> position of the background relative to the HTML element. Two values are needed here, X and Y, where X is the amount of offset from the left and Y is the amount of offset from the top. Takes on either unit values (as with width and height) or left,center,right and top,center,bottom for left and right respectively.</li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+
+                    <div class="css-item">
+                            
+                        <h2>9: Font</h2>
+                        
+                        <p>Fonts in general refer to the appearance of text in your website. There are a few things to look out for. Like other properties, font has a shorthand. Do note that it is common to see the font shorthand declaration only once in the whole CSS file. It is common to use the different properties at other times:</p>
+
+                        <p>Here are the explanations for the font properties in order from left to right:</p>
+
+                        <div class="ul-wrapper">
+                            <ul>
+                                <li><b>font-style:</b> Style of the font. valid values are either italic or normal. Defaults to normal. Optional property in font shorthand</li>
+                                <li><b>font-variant:</b> variant of the font. valid values are normal and small caps. Defaults to normal. Optional property in font shorthand and is not often used</li>
+                                <li><b>font-weight:</b> weight of font. determines if text is bold. valid values are normal, bold, bolder, or 100 - 900. Optional property in font shorthand</li>
+                                <li><b>font-size:</b> size of font. Takes a value thats the same as width and height</li>
+                                <li><b>line-height:</b> determines the amount of space above and below the text. Very important to ensure good readability. Takes on the same values as font, and also a unitless value. If a unitless value is used, it means the line height is a multiple of the value provided.</li>
+                                <li><b>font-family:</b> area to declare typefaces and fontstack that you would like to use.</li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+
+                </div>
+            </div> 
+
+        </section>
+
+        <section class="section" id="js">
+            <div class="container">
+                <h2 class="title">Welcome to JavaScript</h2>
+                <img src="images/js.jpg" alt="js">
+
+                <h3 class="subtitle">10 Must-Know JavaScript Syntax Rules Every Developer Should Follow</h3>
+
+                <p class="left">As a developer, it’s crucial to understand the syntax rules of a programming language like JavaScript. Syntax refers to the set of rules that dictate the structure and organization of code, making it easier to understand and follow. By following these rules, developers can write clean, efficient, and maintainable code that is easy to read and understand by other developers. In this article, we’ll discuss the 10 must-know JavaScript syntax rules every developer should follow to write high-quality code.</p>
+                <h4>1. Always Use Semicolons:</h4>
+                <p class="left">In JavaScript, semicolons are used to terminate a statement. While JavaScript allows you to omit semicolons in some cases, it’s always best practice to include them. This helps to avoid any issues that may arise due to the automatic semicolon insertion feature of JavaScript.</p>
+                <h4>2. Use Comments to Explain Code</h4>
+                <p class="left">Comments are an excellent way to document your code, making it easier for other developers to understand. By adding comments, you can provide context for your code, explain the logic behind it, and make it more maintainable.</p>
+                <h4>3. Follow Proper Indentation:</h4>
+                <p class="left">Proper indentation helps to improve the readability of your code. It makes it easier to understand the structure and organization of the code, especially when working with large codebases. Use two or four spaces to indent your code, and be consistent throughout your project.</p>
+                <h4>4. Declare Variables Properly:</h4>
+                <p class="left">JavaScript offers three ways to declare variables: var, let, and const. It’s crucial to use the appropriate declaration type for your variable based on your use case. Variables declared with const are immutable, while those declared with let can be reassigned. Avoid using var as it can lead to hoisting-related issues.</p>
+                <h4>5. Use Single or Double Quotes:</h4>
+                <p class="left">Consistently In JavaScript, you can use both single and double quotes to define strings. However, it’s essential to be consistent in your usage throughout your project to maintain readability and consistency.</p>
+                <h4>6. Be Mindful of Case Sensitivity:</h4>
+                <p class="left">JavaScript is a case-sensitive language, so be mindful of the casing of your code. A variable declared as “myVariable” is different from one declared as “myvariable”. This can lead to bugs and issues if not appropriately addressed.</p>
+                <h4>7. Follow DRY Principles:</h4>
+                <p class="left">DRY stands for “Don’t Repeat Yourself.” It’s essential to follow this principle to reduce redundancy in your code. If you find yourself repeating a particular piece of code, it’s best to extract it into a function or a reusable module.</p>
+                <h4>8. Use Descriptive Naming Conventions:</h4>
+                <p class="left">Using descriptive and meaningful names for your variables, functions, and classes makes your code more understandable and maintainable. Avoid using generic names like “a” or “b” and opt for more descriptive names that convey their purpose.</p>
+                <h4>9. Avoid Global Variables:</h4>
+                <p class="left">Global variables can lead to unexpected issues and bugs, making them hard to debug. Instead, declare your variables within the appropriate scope, such as a function, class, or module.</p>
+                <h4>10. Use Strict Mode:</h4>
+                <p class="left">Strict mode is a feature introduced in ECMAScript 5 that helps to catch common errors and enforce better coding practices. It can be enabled by adding the “use strict” directive at the beginning of your code.</p>
+            </div>
+        </section>
+
+        <section class="section" id="git">
+            <div class="container">
+                <h2 class="title">Welcome to GIT</h2>
+                <img src="images/git.png" alt="git logo" class="git-img">
+
+                <h3 class="subtitle">Top 10 Git Commands Every Developer Should Know</h3>
+                <p class="left">Git is open-source software and distributed version control system. It helps developers easily handle different versions of a source code. With it, you can know who did what, when, and why. Nowadays, Git has become a must-have tool for any developer, and knowing Git commands is essential for developers to use Git to its full potential. There are hundreds of Git commands, but only a few significant commands are used regularly.</p>
+
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <td>Number</td>
+                            <td>Command</td>
+                            <td><b>Description</b></td>
+                        </tr>                        
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>git init</td>
+                            <td>The git init command lets us create a new Git repository. This is the first command to start a new project in a GitHub repository. Go to the directory that contains your project files and run the git init command. A hidden .git subdirectory will be added to it.
+                                <img src="images/git-init-Command-2.png" alt="git init" class="table-img">    
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>git clone</td>
+                            <td>git clone creates a local working copy of the source code from a remote repository. When you clone a repository, the code will be automatically downloaded to your machine. This command will add the original location as a remote location so you can pull changes from it and push changes to it if you have permission.
+                                <img src="images/git-clone-Command-1.png" alt="git image" class="table-img">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>git branch</td>
+                            <td>Create a new branch locally</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>git checkout</td>
+                            <td>The git checkout command allows us to switch to an existing branch or create and switch to a new branch. To achieve this, the branch you want to switch to should be present in your local system and the changes in your current branch should be committed or stashed before you make the switch. You can also use this command for checking out the files.
+                                <img src="images/git4.png" alt="git image" class="table-img">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>git add</td>
+                            <td>The git adds command adds your changes in a file to the staging area where you can compare your local version and the version on the remote repository. Before you commit your new or modified file, it should be added to the staging area by using the git add command.
+                                <img src="images/git5.png" alt="git image" class="table-img">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>git commit</td>
+                            <td>git commit saves the changes in your local repository. Every time you commit your code changes, you have to include a brief description of the changes made. This commit message helps others understand the changes that have been done.
+                                <img src="images/git6.png" alt="git image" class="table-img">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>git push</td>
+                            <td>The git push command pushes the committed file changes from the local repository to the remote repository so others can use them. It will also create a named branch in the remote repository if it does not exist.
+                                <img src="images/git7.png" alt="git image" class="table-img">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td>git pull</td>
+                            <td>git pull fetches the last uploaded changes from the remote server into the local repository so that you can have the latest updates from your teammates.
+                                <img src="images/git8.png" alt="git-image" class="table-img">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>9</td>
+                            <td>git merge</td>
+                            <td>The git merge command merges your branch with the parent branch. The parent branch can either be a development or master branch depending on your workflow. It will automatically create a new commit if there are no conflicts. Before running the git merge command, you should be on the specific branch you want to merge with your parent branch.</td>
+                        </tr>
+                        <tr>
+                            <td>10</td>
+                            <td>git status</td>
+                            <td>git status provides an overview of the current status of your repository.
+                                <img src="images/git10.png" alt="git-image" class="table-img">
+                            </td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="3">Thanks for reading! In this blog, we have learned some of the most important Git commands to enhance your productivity. Try these Git commands in your day-to-day coding life and let us know if you have any concerns in the comments section below!
+                            </td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </section>
+    </main>
+
+    <!--  footer  -->
+
+    <footer>
+        <div class="container">
+            <p>All materials were downloaded from different resources.</p>
+            <p>Thanks for being here.</p>
+        </div>
+    </footer>
+    <button id="backToTopBtn">Back to top</button>
+    <script src="main.js"></script>
+
+</body>
+</html>
