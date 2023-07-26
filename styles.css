@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(images/bg.png);
+    font-family: "Chakra Petch", serif;
+}
+
+/* ---------- NAV ---------- */
+
+.nav {
+    margin-top: 30px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.nav-item li {
+    list-style: none;
+    font-family: 'Bebas Neue', sans-serif;;
+    color: #ffd894;
+    font-size: 100px;
+    transition: color 0.6s linear;
+}
+
+.nav-item li:hover {
+    color: #fff;
+}
+
+/* ---------- WELCOME ---------- */
+
+.welcome-title {
+    color: #fff;
+    text-align: center;
+    margin-top: 150px;
+    font-size: 200px;
+}
+
+.welcome-subtitle {
+    color: #fff;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 100px;
+}
+
+/* ---------- HTML ---------- */
+
+.section, footer {
+    margin: 400px auto;
+    width: 80%;
+    height: auto;
+    background-color: #fff;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    height: auto;
+}
+
+.title {
+    font-size: 100px;
+    margin-top: 50px;
+    color: #000;
+}
+
+.html-description {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    padding: 50px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    background-color: #f3f6f3;
+}
+
+.subtitle {
+    font-size: 50px;
+    color: #000;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.html-img {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 40%;
+    height: auto;
+}
+
+.table {
+    margin: 50px auto;
+    width: 80%;
+    border: 2px solid #000;
+    font-size: 20px;
+}
+
+thead td {
+    padding: 15px;
+    height: 50px;
+    background-color: #ccc;
+}
+
+tfoot td {
+    background-color: #ccc;
+}
+
+td {
+    padding: 20px;
+    background-color: #f3f6f3;
+    height: auto;
+}
+
+tbody tr:hover td {
+    background-color: #ffd894;
+}
+
+table td:first-child {
+    font-weight: 700;
+}
+
+.first-letter {
+    color: red;
+    font-size: 35px;
+}
+
+.tag {
+    color: red;
+    background-color: #ffd894;
+}
+
+
+
+/* ---------- CSS ---------- */
+
+
+
+.css-wrapper {
+    text-align: left;
+}
+
+.css-item {
+    margin-top: 50px;
+}
+
+.css-item img {
+    display: block;
+    margin: 0 auto;
+}
+
+.css-item h2 {
+    text-align: center;
+}
+
+.css-item h2 {
+    font-size: 80px;
+    margin-bottom: 50px;
+}
+
+p {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.css-item ul {
+    margin: 0 30px;
+}
+
+.css-item li {
+    width: fit-content;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.ul-wrapper {
+    margin-top: 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+h4 {
+    font-size: 35px;
+    text-align: left;
+}
+
+.left {
+    text-align: left;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+#backToTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 30px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15px;
+
+    animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+   0% {
+    box-shadow: 0 0 5px rgba(255, 216, 148, 0.8);
+   }
+   50% {
+    box-shadow: 0 0 20px rgba(255, 216, 148, 0.8);
+   }
+   100% {
+    box-shadow: 0 0 5px rgba(255, 216, 148, 0.8);
+   } 
+}
+
+#backToTopBtn:hover {
+    box-shadow: 0 0 20px rgba(255, 216, 148, 0.8);
+}
+
+.git-img {
+    width: 500px;
+    height: 200px;
+}
+
+.table-img {
+    margin-top: 20px;
+}
+
+footer {
+    margin-bottom: 0;
+}
+
+footer p {
+    font-size: 20px;
+}
+
+
+
+
+
+
+
