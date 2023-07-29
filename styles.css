@@ -104,7 +104,8 @@ a {
 }
 
 .table {
-    margin: 50px auto;
+    margin: 10px auto;
+    align: center;
     width: 80%;
     border: 2px solid #000;
     font-size: 20px;
