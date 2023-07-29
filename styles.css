@@ -42,6 +42,7 @@ a {
 /* ---------- WELCOME ---------- */
 
 .welcome-title {
+    width: 90%;
     color: #fff;
     text-align: center;
     margin-top: 150px;
